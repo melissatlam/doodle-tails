@@ -33,8 +33,10 @@ import axios from 'axios';
      }
 
      deleteDoodles = () => {
+        console.log(this.props.val.id)
          axios.delete(`/api/doodle-tails/${this.props.val.id}`)
          .then(response => {
+             console.log(response)
              this.props.updateAllDoodles(response.data)
          })
          .catch(error => {
@@ -49,7 +51,7 @@ import axios from 'axios';
         console.log(this.state)
         return (
             <div>
-                <img src={this.props.val.img}alt="img"/>
+                <img className= 'adoptable' src={this.props.val.img}alt="img"/>
                 <h2>{this.props.val.name}</h2>
                 <p>{this.props.val.breed}</p>
                 <p>{this.props.val.info}</p>

@@ -1,0 +1,102 @@
+header {
+    width: 100%;
+    /* background-color: rgb(230, 207, 230); */
+    text-align: center;
+}
+
+body {
+    background-color:rgb(212, 189, 205);
+    width: 100%;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size:30px;
+    
+}
+
+
+h2, p {
+    font-family: 'Playfair Display', serif;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+h2{
+    font-size:25px;
+
+}
+p{
+    font-size:20px;
+}
+footer {
+    /* background-color:rgb(212, 189, 205); */
+    width: 100%;
+    height:100px;
+    margin:0px;
+    padding:0px;
+    background: url('/Images/glitter.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.title{
+    background-color: rgb(212, 189, 205);
+    background: url('/Images/glitter.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100px;
+    margin:0px;
+    padding-top: 30px;
+    color:gray;
+    
+
+   
+    }
+.chester{
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom:100px;
+    
+    
+
+}
+
+.flex{
+    display: flex;   
+    justify-content: space-evenly;
+    margin: 100px;
+   
+}
+
+.button{
+    width: 140px;
+    height: 35px;
+    background-color: rgb(214, 212, 212);
+    border: solid 1px;
+    margin:10px;
+    
+
+} 
+
+.rehome{
+    font-size:30px;
+}
+
+.mission {
+    background-color: rgb(230, 230, 230);
+    
+}
+
+
+
+
+
+
+
+
+

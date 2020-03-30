@@ -43,8 +43,9 @@ const updateDoodles = (req, res) => {
 };
 
 const removeDoodles = (req, res) => {
+    console.log(req.params.id)
   const { id } = req.params;
-  for (let i = 0; i < doodleAdopt; i++) {
+  for (let i = 0; i < doodleAdopt.length; i++) {
     if (doodleAdopt[i].id == id) {
       doodleAdopt.splice(i, 1);
     }
