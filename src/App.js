@@ -29,8 +29,10 @@ class App extends React.Component {
 
      <div className='rehome'>
        <button className = 'button' onClick={()=> this.setState({currentView:'post'})}>Rehome Your Doodle</button>
-       <button className = 'button' onClick={()=> this.setState({currentView:'adopt'})}>Adopt a Doodle</button>
+       <button className = 'button' onClick={()=> this.setState({currentView:'adopt'})}>Adopt a Doodle</button> 
+
      </div>
+     
 
      {/* <PostDoodles/>
      <ViewDoodles/>

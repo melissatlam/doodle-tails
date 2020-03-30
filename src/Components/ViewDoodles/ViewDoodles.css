@@ -1,6 +1,9 @@
 .adoptable{
     width:250px;
-    
+
+    -moz-box-shadow: 10px 10px 0px rgb(212, 189, 205);
+    -webkit-box-shadow: 10px 10px 0px rgb(212, 189, 205);
+        box-shadow: 10px 10px 0px rgb(212, 189, 205); 
    
 }
 
