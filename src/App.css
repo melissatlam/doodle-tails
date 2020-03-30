@@ -17,8 +17,8 @@ body {
 h2, p {
     font-family: 'Playfair Display', serif;
     
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 h2{
     font-size:25px;
@@ -28,10 +28,10 @@ p{
     font-size:20px;
 }
 footer {
-    /* background-color:rgb(212, 189, 205); */
+    
     width: 100%;
     height:100px;
-     margin:0px; 
+    /* margin-bottom:0px;  */
     
      
 }
@@ -59,15 +59,22 @@ footer {
     margin-bottom:100px;
     -moz-box-shadow: 10px 10px 0px rgb(212, 189, 205);
     -webkit-box-shadow: 10px 10px 0px rgb(212, 189, 205);
-        box-shadow: 10px 10px 0px rgb(212, 189, 205); 
+    box-shadow: 10px 10px 0px rgb(212, 189, 205); 
+    opacity: 0.7;
+    transition: 0.4s;
     
 
 }
+.chester:hover {
+    transform: scale(1.1);
+  }
 
 .flex{
     display: flex;   
     justify-content: space-evenly;
     margin: 100px;
+    overflow: hidden; 
+    padding: 20px;
    
 }
 
@@ -75,24 +82,21 @@ footer {
     width: 140px;
     height: 35px;
     background-color: rgb(250, 250, 250);
-    /* border: solid 1px; */
     margin:10px;
     -moz-box-shadow: 3px 3px rgb(212, 189, 205);
     -webkit-box-shadow: 3px 3px 0px rgb(212, 189, 205);
     box-shadow: 3px 3px 0px rgb(212, 189, 205); 
-    font-weight:bold;
+   font-weight:bold;
     font-family: 'Playfair Display', serif;
-    font-size: 12px;
+    font-size: 12px; 
+    
 
 } 
 
-.rehome{
-    font-size: 30px;
-}
 
 .mission {
     background-color: rgb(230, 230, 230);
-    
+    height: 130px;
 }
 
 .contact {
@@ -106,14 +110,9 @@ footer {
     background-repeat: no-repeat;
     margin:0px;
     height:100px;
-    padding-top:20px;
+    padding-top:40px;
     
 }
-
-
-
-
-
 
 
 

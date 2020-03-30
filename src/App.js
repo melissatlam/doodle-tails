@@ -21,22 +21,26 @@ class App extends React.Component {
     <div className="App">
       
      <h1 className='title'>Doodle Tails Adoption</h1>
+     
 
      <div className ='mission'>
-                <h2>Our Mission</h2>
+                {/* <h2>Our Mission</h2> */}
                 <p>Here at Doodle Tails, we love our doodles and want to make sure that each one is taken care of, even if it means rehoming your beloved pup. We understand that life changes quickly and sometimes you may not be able to take care of your furry friend anymore. Whether you’re moving, have long work hours, or having trouble with expenses, we’re here to help! </p>
             </div>
 
-     <div className='rehome'>
+     <div>
        <button className = 'button' onClick={()=> this.setState({currentView:'post'})}>Rehome Your Doodle</button>
        <button className = 'button' onClick={()=> this.setState({currentView:'adopt'})}>Adopt a Doodle</button> 
+       <a href='https://www.amazon.com/s?k=dog+stuff&ref=nb_sb_noss_'><button className = 'button'>Shopping</button></a>
+       <a href='https://www.petfinder.com/dogs/bringing-a-dog-home/tips-for-first-30-days-dog/'><button className = 'button'>Adoption Advice</button></a>
+       
 
      </div>
      
 
-     {/* <PostDoodles/>
+     {/* {<PostDoodles/>
      <ViewDoodles/>
-     */}
+     } */}
 
     {
       this.state.currentView === 'post'

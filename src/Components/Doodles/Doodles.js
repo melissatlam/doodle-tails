@@ -54,7 +54,7 @@ import axios from 'axios';
                 <img className= 'adoptable' src={this.props.val.img}alt="img"/>
                 <h2>{this.props.val.name}</h2>
                 <p>{this.props.val.breed}</p>
-                <p>{this.props.val.info}</p>
+                <p class = 'newAdopt'>{this.props.val.info}</p>
                 <button onClick={this.changeEditStatus}>Edit</button>
                 
                 {
